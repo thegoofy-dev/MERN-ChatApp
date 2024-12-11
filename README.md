@@ -5,6 +5,7 @@ A real-time chat application built using the MERN stack (MongoDB, Express.js, Re
 
 ## Table of Contents
 - [Features](#features)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
@@ -20,6 +21,9 @@ A real-time chat application built using the MERN stack (MongoDB, Express.js, Re
 - Create and join chat rooms
 - User profile management
 - Responsive design
+
+## Demo 
+Check out the live demo of the application: [MERN ChatApp](https://igluz-chatapp.onrender.com)
 
 ## Installation
 
@@ -39,15 +43,17 @@ To get a local copy up and running, follow these simple steps:
 	git clone https://github.com/thegoofy-dev/MERN-ChatApp.git
 	cd MERN-ChatApp 
 ```
+
+
 2. Navigate to the backend directory
-```bash
-  cd backend
+```bash		
+	cd backend
 ```
-4. Install dependencies
+3. Install dependencies
 ```bash
-  npm install
+	npm install
 ```
-6. Create a .env file in the backend directory and add the following environment variables
+4. Create a .env file in the backend directory and add the following environment variables
 ```bash
 	PORT=5000
 	MONGO_URI=your_mongodb_uri
