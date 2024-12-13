@@ -16,8 +16,8 @@ dotenv.config();
 const PORT = process.env.PORT || 5001;
 const __dirname = path.resolve();
 
-// Enable trust proxy
-app.set('trust proxy', true);
+// Enable trust proxy for loopback interfaces only (localhost)
+app.set('trust proxy', 'loopback'); // Adjust with your trusted proxy IPs if necessary
 
 // Security middleware with CSP configuration
 app.use(
