@@ -16,6 +16,9 @@ dotenv.config();
 const PORT = process.env.PORT || 5001;
 const __dirname = path.resolve();
 
+// Enable trust proxy
+app.set('trust proxy', true);
+
 // Security middleware with CSP configuration
 app.use(
   helmet({
