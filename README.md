@@ -132,6 +132,6 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See LICENSE for more information.
 
 ### Contact
-Pankaj Tyagi - LinkedIn - sujaltyagi7788@gmail.com
+Pankaj Tyagi - LinkedIn - pankajtyagi1601@gmail.com
 
 Project Link: https://github.com/thegoofy-dev/MERN-ChatApp
